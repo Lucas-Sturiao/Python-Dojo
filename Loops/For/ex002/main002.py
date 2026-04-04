@@ -8,14 +8,15 @@ usuarios = [
 total_users = 0
 
 for usuario in usuarios:
+    if usuario["ativo"] == True and usuario["idade"] >= 18:
+        total_users = total_users + 1
+print(total_users)
+
+# Ou:
+
+'''for usuario in usuarios:
     if not usuario["ativo"]:
         continue
     if usuario["idade"] >= 18:
         total_users = total_users + 1
-print(total_users)
-
-
-for usuario in usuarios:
-    if usuario["ativo"] == True and usuario["idade"] >= 18:
-        total_users = total_users + 1
-print(total_users)
+print(total_users)'''
