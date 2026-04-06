@@ -1,4 +1,4 @@
-# Função com Dicionários (Nível API)
+# Função com Dicionários
 
 ## 📝 Enunciado
 Simule o processamento de dados de uma API que retorna uma lista de usuários. O objetivo é criar uma lógica de filtragem para validar quais usuários estão aptos a acessar um serviço.
